@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'leite';
+    src: url(font/ShadowsIntoLightTwo-Regular.ttf);
+}
+
+a{
+    color: black;
+}
+
+body{
+    background-color: aqua;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header img{
+    width: 200px;
+    margin-left: 40px;
+
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'leite';
+}
+
+.barra{
+    display: flex;
+    font-size: 35px;
+    justify-content: space-between;
+    font-family: 'leite';
+    font-weight: bold;
+}
+
+.barra li{
+    background-color: aqua;
+    padding: 10px;
+    margin-left: 10px;
+    border: double 10px white;
+    border-radius: 30px;
+}
+
+.vendas{
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.vendas img{
+    width: 200px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.vendas h2{
+    font-family: 'leite';
+    margin-bottom: 40px;
+    font-size: 50px;
+    background-color: rgba(0, 228, 228, 0.349);
+}
+
+.vendas .historia{
+    display: flex;
+    padding: 50px 20px;
+    align-items: center;
+    border-radius: 20px
+}
+
+.empresa p{
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.115);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.produtos .historia{
+    background-color:  rgba(0, 228, 228, 0.349);
+    border: double 2px white;
+    display: flex;
+    align-items: center;
+}
+
+.preco{
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 30% 30% 0;
+    font-size: 30px;
+}
+
+.conversa{
+    position: fixed;
+    left: 90%;
+    top: 80%;
+}
+
+.conversa img{
+    width: 85px;
+}
+
+.seta-up{
+    position: fixed;
+    left: 1%;
+    top: 90%;
+}
+
+.seta-up img{
+    width: 45px;
+    background-color: white;
+    border: double 2px aqua;
+    border-radius: 40%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    padding: 50px;
+}
+
+footer li{
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+h3{
+    font-size: 35px;
+}
